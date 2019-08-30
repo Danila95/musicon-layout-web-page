@@ -52,7 +52,7 @@ let conf = {
         test: /\.pug$/,
         loader: 'pug-loader',
         options: {
-          pretty: PROD_MODE ? false : true
+          pretty: true //PROD_MODE ? false : true
         }
       },
       {
