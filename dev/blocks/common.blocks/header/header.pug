@@ -1,2 +1,27 @@
 header.header
-	.header__container
+	div(class="header__container d-flex align-items-center")
+		img(src="img/logo.png" alt="MUSICON" class="container__logo")
+		ul(class="container__menu d-flex")
+			li.menu__item
+				a(href="#")
+					| Main
+			li.menu__item
+				a(href="#")
+					| Your style
+			li.menu__item
+				a(href="#")
+					| Tracks
+			li.menu__item
+				a(href="#")
+					| Download
+		div(class="container__auth d-flex align-items-center")
+			.auth__img
+				img(src="img/user.png" alt="Leonardo DiCaprio")
+			.auth__info
+				auth__profile
+					| Profile
+				h6.auth__name
+					| Leonardo
+			a(href="#" class="auth__play")
+				img(src="img/music.png" alt="Play music")
+			button.auth__more
