@@ -1,44 +1,48 @@
 body {
-    background-image: url(./img/SavedImage.jpg); /* Путь к фоновому изображению */
-    background-repeat: no-repeat;
-    background-color: #c7b39b; /* Цвет фона */
-    background-size: cover;
-   }
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: $white-1;
+	background: #262626;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+}
 
-.container {
-	color: yellow;
+a, a:hover, a:active {
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn {
+	background: #e930a1;
+	color: $white-1;
+	font-weight: 900;
+	text-transform: uppercase;
 	text-align: center;
-	font-family: 'MyriadPro-Regular';
+	font-size: 12px;
+	width 185px;
+	padding: 22px 0;
+	border-radius: 100px;
+	display: block;
 }
 
-header {
-	font-weight: bold;
-	text-align: center;
-	font-size: 30px;
-	color: aqua;
+.btn:hover {
+	background: #ff009c;
+	box-shadow: 0 10px 30px rgba(233,48,161,0.2);
 }
 
-.content p {
-	color: red;
-	font-size: 40px;
-	text-align: center;
+.btn-round {
+	font-size: 9px;
+	border: 1px solid $green-1;
+	color: $green-1;
+	padding: 5px 16px;
+	text-transform: uppercase;
+	border-radius: 100px;
 }
 
-.content {
-	margin: 40px;
+.btn-round:hover {
+	background: $green-1;
+	color: $white-1;
+	border: 1px solid $green-1;
+	color: #000;
 }
-
-footer {
-	font-weight: bold;
-	text-align: center;
-	font-size: 30px;
-	color: green;
-	margin-top: 20px;
-}
-
-.MyriadPro-Regular {
-	font-family: 'MyriadPro-Regular';
-	text-align: center;
-	color: orange;
-}
-

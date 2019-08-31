@@ -1,21 +1,12 @@
 extends blocks/common.blocks/common/template.pug
 
 block variables
-	- title="Webpack app"
+	- title="Musicon homepage"
 
 block content
-	.wrapper
+	section(id="first" class="first")
 		include blocks/common.blocks/header/header.pug
-		.content
-			p Hello world!
-			p Webpack is work!!! =)  
-		.container
-			ul
-				li Test 1
-				li Test 2
-				li Test 3
-				li Test 4
-		.MyriadPro-Regular
-			| MyriadPro-Regular
+		include blocks/common.blocks/content/content.pug
 
-	include blocks/common.blocks/footer/footer.pug
+	script(src="js/parallax.js")
+	script(src="js/jquery-3.4.1.min.js")
