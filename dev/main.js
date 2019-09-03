@@ -77,7 +77,7 @@ $(function () {
 					}
 				},
 				{
-					'selector': '.slider__rnb-man',
+					'selector': '.slider__viktor-tsoi',
 					'properties': {
 						'x': {
 							'left': {
